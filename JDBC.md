@@ -20,8 +20,8 @@ Example
     public class JdbcExample {
     public static void main(String[] args) {
         try {
-            // Load JDBC driver
-            Class.forName("com.mysql.cj.jdbc.Driver");
+		// Load JDBC driver
+		Class.forName("com.mysql.cj.jdbc.Driver");
             // Establish connection
             Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb", "username", "password");
             // Create statement
